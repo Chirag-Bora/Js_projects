@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="intro">Welcome to calculate me !</h1>
+    <div class="container">
+        <div class="cal-Input">
+            <input type="tel" name="calNum" placeholder="0" id="displayInput" autocomplete="off">
+        </div>
+        <div class="cb-btn">
+        <button class="yellow-btn" onclick="allClear()">AC</button>
+        <button class="yellow-btn" onclick="deleteInput()">DEL</button>
+        <button class="yellow-btn operation">%</button>
+        <button class="yellow-btn operation">/</button>
+        <button class="num-btn" onclick="addNumberToInput(7)">7</button>
+        <button class="num-btn" onclick="addNumberToInput(8)">8</button>
+        <button class="num-btn" onclick="addNumberToInput(9)">9</button>
+        <button class="yellow-btn operation">*</button>
+        <button class="num-btn" onclick="addNumberToInput(4)">4</button>
+        <button class="num-btn" onclick="addNumberToInput(5)">5</button>
+        <button class="num-btn" onclick="addNumberToInput(6)">6</button>
+        <button class="yellow-btn operation">-</button>
+        <button class="num-btn" onclick="addNumberToInput(3)">3</button>
+        <button class="num-btn" onclick="addNumberToInput(2)">2</button>
+        <button class="num-btn" onclick="addNumberToInput(1)">1</button>
+        <button class="yellow-btn operation">+</button>
+        <button class="num-btn" onclick="addNumberToInput(0)">00</button>
+        <button class="num-btn" onclick="addNumberToInput(0)">0</button>
+        <button class="num-btn" onclick="addNumberToInput('.')" >.</button>
+        <button class="result-btn" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

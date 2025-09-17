@@ -1,0 +1,55 @@
+.intro{
+    text-align: center;
+}
+.container {
+    width: 350px;
+    height: 530px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #343434;
+    border-radius: 15px;
+}
+
+.cal-Input input{
+    width: 330px;
+    height: 90px; 
+    margin-left: 8px; 
+    margin-top: 5px; 
+    border-radius: 5px;
+    border-style: calc();
+    border: 1px solid #393939 ;
+    font-size: 26px;
+    text-align: end;
+    color: #f0f8ff;
+    outline: none;
+    background-color: #343434;
+} 
+button{
+    width: 84px;
+    height: 79px;
+    border-radius: 76px;
+    border-style: none;
+}
+.cb-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 10px;
+}
+.yellow-btn{
+    background-color: #ebc90b;
+    font-size: 28px;
+    color: #f0f8ff;
+}
+.result-btn{
+    background-color: rgb(232, 127, 14);
+    font-size: 30px;
+    color: #f0f8ff;
+}
+.num-btn{
+    background-color: #2e2c2c;
+    color: #f0f8ff;
+    font-size: 30px;
+}
+
